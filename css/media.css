@@ -1,0 +1,435 @@
+@media (max-width: 1359px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    header .h_top {
+        display: flex;
+    }
+
+    header .h_top ul {
+        float: none;
+        display: flex;
+        justify-content: end;
+    }
+
+    header .h_top ul li {
+        float: none;
+    }
+
+    header .h_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .h_bottom::after {
+        display: none;
+    }
+
+    header .h_bottom h1 {
+        float: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .h_bottom nav {
+        padding: 0;
+        float: none;
+    }
+
+    header .h_bottom form {
+        float: none;
+        padding: 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    header .h_bottom .search {
+        width: 100%;
+    }
+
+
+    main .main_visual .prev_next .swiper-button-prev {
+        left: 10px;
+        margin-left: 0;
+    }
+
+    main .main_visual .prev_next .swiper-button-next {
+        right: 10px;
+        margin-right: 0;
+    }
+
+    main section.product ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    main section.product ul li {
+        float: none;
+        width: 50%;
+        padding-top: 20px;
+
+    }
+
+    main section.product ul li .p_box {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    main section.product ul li .img_box {
+        float: none;
+        width: 65%
+    }
+
+    main section.product ul li .img_box img {
+        width: 100%;
+    }
+
+    main section.product ul li .text_box {
+        float: none;
+    }
+
+    main section.product ul li:nth-child(2) {
+        float: none;
+
+    }
+
+    main section.product ul li:nth-child(2) .p_box {
+        margin-right: 0;
+    }
+
+    main section.product ul li:nth-child(4) {
+        float: none;
+
+    }
+
+    main section.product ul li:nth-child(4) .p_box {
+        margin-right: 0;
+    }
+
+    main section.island_story .info .txt {
+        width: 100%;
+        padding-left: 0;
+        padding: 40px 40px;
+    }
+
+    main section.island_story .option ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main section.island_story .option ul li {
+        float: none;
+        margin: 0;
+    }
+
+
+
+    main section.qna .contents {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    main section.qna .img_box {
+        float: none;
+        width: 30%;
+
+    }
+
+    main section.qna .img_box ul.img {
+        display: flex;
+        position: static;
+    }
+
+    main section.qna .img_box ul.img li {
+        float: none;
+    }
+
+    main section.qna ul.list {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    main section.qna ul.list li {
+        padding: 0 20px;
+    }
+
+    main section.qna ul.list li a {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    footer .f_left {
+        float: none;
+
+    }
+
+    footer .f_right {
+        float: none;
+
+    }
+
+    footer .f_right ul {
+        display: flex;
+    }
+
+    footer .f_right ul::after {
+        display: none;
+    }
+
+    footer .container::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1279px) {}
+
+@media (max-width: 1169px) {
+    main section.product ul li .img_box {
+        width: 60%;
+    }
+
+    main section.product ul li .text_box {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1039px) {
+    main section.product ul {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    main section.product ul li {
+        width: 95%;
+        padding: 0;
+        height: 330px;
+        margin-bottom: 24px;
+
+    }
+
+    main section.product ul li .p_box {
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        margin-right: 0;
+        border-radius: 40px;
+    }
+
+    main section.product ul li .img_box {
+        float: none;
+    }
+
+    main section.qna .img_box {
+        display: none;
+
+    }
+
+    main section.qna .contents {
+        align-items: center;
+        justify-content: center;
+    }
+
+    main section.qna ul.list {
+        width: 95%;
+    }
+}
+
+@media (max-width: 979px) {
+    header {
+        height: 96px;
+    }
+
+    header .h_bottom {
+        display: none;
+    }
+
+    header .md_menu {
+        display: flex;
+    }
+
+    main {
+        padding-top: 96px;
+    }
+}
+
+@media (max-width: 909px) {
+    main section.regional_info .te_anau .ta_img {
+        height: 50%;
+    }
+
+    main section.island_story .option ul {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    main section.island_story .option ul li {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    main section.island_story .option ul li img {
+        width: 100%;
+    }
+
+    main section.island_story .option ul li:nth-child(2) {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    main section.island_story .option ul li img {}
+
+    main section.island_story .option ul li:hover p {
+        font-size: 40px;
+    }
+
+    footer .f_left {
+      
+    }
+    footer .f_right{
+    }
+    footer .f_right ul {
+        height: 100%;
+        flex-direction: column;
+       
+    }
+
+    footer .f_right ul li {
+        padding: 0;
+        padding-bottom: 10px;
+
+    }
+
+    footer .f_right .f_logo {
+        display: none;
+    }
+}
+
+@media (max-width: 759px) {
+    main .main_visual ul li a {
+        padding-left: 50px;
+    }
+
+    main section.regional_info .contents {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section.regional_info .te_anau {
+        float: none;
+        width: 50%
+    }
+
+    main section.regional_info .mount_cook {
+        width: 50%
+    }
+
+    main section.regional_info .ph_south {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section.regional_info .ph_south a {
+        padding: 0;
+
+    }
+    main section.qna ul.list li{
+        font-size: 16px;
+    }
+    main section.qna ul.list li a span.hits{
+        font-size: 12px;
+    }
+    footer .f_left {
+        display: flex;
+    }
+
+    footer .f_left ul li {
+        float: none;
+        padding: 0;
+    }
+
+}
+@media (max-width: 620px){
+    main section.qna ul.list li a{
+        letter-spacing: -0.3px;
+    }
+}
+@media (max-width: 599px) {
+    header .h_top ul{
+        width: 100%;
+        justify-content: space-between;
+
+    }
+    header .h_top ul li{
+        padding: 0 10px
+    }
+    header .h_top ul li:last-child{
+
+    }
+ 
+    main section.product ul li {
+        height: 340px;
+        
+    }
+    main section.product ul li .text_box{
+        width: 60%;
+    }
+    main section.product ul li p{
+        font-size: 14px;
+        letter-spacing: -0.3px;
+    }
+    main section.island_story .option ul li{
+        height:130px;
+    }
+    main section.island_story .option ul li:hover p{
+        line-height: 139px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px){
+    main section.island_story .info .txt{
+        padding: 40px 0;
+    }
+    main section.qna ul.list li{
+        padding: 0;
+    }
+}
+@media (max-width: 480px){
+    footer .f_left ul{
+        font-size: 12px;
+    }
+    footer .f_right ul li a{
+        font-size: 12px;
+    }
+}
